@@ -1,0 +1,11 @@
+{
+  "name": "sites-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd app && node server.js",
+    "install": "cd app && npm install"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

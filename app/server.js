@@ -4,7 +4,7 @@ const path = require('path');
 
 const app = express();
 const PORT = 3000;
-const CONTENT_FILE = path.join(__dirname, '..', 'content.txt');
+const CONTENT_FILE = path.join(__dirname, 'content.txt');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
