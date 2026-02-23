@@ -1,0 +1,12 @@
+{
+  "name": "atelier-boho-app",
+  "version": "1.0.0",
+  "description": "Web app displaying Atelier Boho business summary",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
